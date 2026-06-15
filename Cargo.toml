@@ -3,5 +3,9 @@ name = "tokio-exos"
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
+[workspace]
+resolver = "3"
+members = ["runtime_and_async"]
+
+[workspace.dependencies]
 tokio = { version = "1", features = ["full"] }
