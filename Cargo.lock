@@ -113,6 +113,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "runtime_and_async"
+version = "0.1.0"
+dependencies = [
+ "tokio",
+]
+
+[[package]]
 name = "scopeguard"
 version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -170,13 +177,6 @@ dependencies = [
  "socket2",
  "tokio-macros",
  "windows-sys",
-]
-
-[[package]]
-name = "tokio-exos"
-version = "0.1.0"
-dependencies = [
- "tokio",
 ]
 
 [[package]]
