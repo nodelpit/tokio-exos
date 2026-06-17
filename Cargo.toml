@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["runtime_and_async"]
+members = ["runtime_and_async", "spawn_and_join"]
 
 [workspace.dependencies]
 tokio = { version = "1", features = ["full"] }
