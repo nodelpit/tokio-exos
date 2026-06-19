@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["runtime_and_async", "spawn_and_join", "try_join_and_try"]
+members = ["mpsc_canal","runtime_and_async", "spawn_and_join", "try_join_and_try"]
 
 [workspace.dependencies]
 tokio = { version = "1", features = ["full"] }
