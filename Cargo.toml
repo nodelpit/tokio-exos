@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["arc_mutex","mpsc_canal", "oneshot_and_timeout","runtime_and_async", "select", "spawn_and_join", "try_join_and_try"]
+members = ["arc_mutex","mpsc_canal", "oneshot_and_timeout","runtime_and_async", "select", "spawn_and_join", "spawn_blocking", "try_join_and_try"]
 
 [workspace.dependencies]
 tokio = { version = "1", features = ["full"] }

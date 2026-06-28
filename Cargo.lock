@@ -187,6 +187,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "spawn_blocking"
+version = "0.1.0"
+dependencies = [
+ "tokio",
+]
+
+[[package]]
 name = "syn"
 version = "2.0.117"
 source = "registry+https://github.com/rust-lang/crates.io-index"
